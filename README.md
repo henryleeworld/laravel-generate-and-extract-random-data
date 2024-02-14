@@ -1,4 +1,4 @@
-# Laravel 9 產生並抽出隨機資料
+# Laravel 10 產生並抽出隨機資料
 
 引入 hi-folks 的 rando-php 套件來擴增產生並抽出隨機資料，可以產生字元、布林、浮點數、整數等隨機亂碼。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/6rB0ov4.png)
+![](https://i.imgur.com/x4IdB5O.png)
 > 一個隨機的過程是一個不定因子不斷產生的重複過程，但它可能遵循某個概率分布
