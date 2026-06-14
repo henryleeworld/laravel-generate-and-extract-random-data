@@ -1,4 +1,4 @@
-# Laravel 11 產生並抽出隨機資料
+# Laravel 12 產生並抽出隨機資料
 
 引入 hi-folks 的 rando-php 套件來擴增產生並抽出隨機資料，可以產生字元、布林、浮點數、整數等隨機亂碼。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/random-data/generate/` 來進行隨機資料產出。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/mdnK4L8.png)
+![](https://i.imgur.com/jKmdtps.png)
 > 一個隨機的過程是一個不定因子不斷產生的重複過程，但它可能遵循某個概率分布
